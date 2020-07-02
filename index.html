@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attack On Corona</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Kill Corona Virus</h1>
+
+    <h2 class="papan-score">0</h2>
+
+    <button type="button" class="mulai" onclick="mulai()">Play</button>
+
+    <div class="container">
+        <div class="grass">
+            <div class="corona"></div>
+        </div>
+        <div class="grass">
+            <div class="corona"></div>
+        </div>
+        <div class="grass">
+            <div class="corona"></div>
+        </div>
+        <div class="grass">
+            <div class="corona"></div>
+        </div>
+        <div class="grass">
+            <div class="corona"></div>
+        </div>
+        <div class="grass">
+            <div class="corona"></div>
+        </div>
+        
+        <div id="box">
+            <h3>Congratulation 🎉🎉 !! <br> You got <span id='score'></span> corona virus killed <br><br><br> Don't forget keep safety for your healthy 🤧😷😄</h3>
+            <a onclick = "toClose()" class="close">Close</a>   
+        </div>
+    </div>
+
+    <audio src="audio/SprayBottleCut.mp3" id='spray'></audio>
+    <audio src="audio/applause7.mp3" id="applause"></audio>
+    <!-- <audio autoplay src="audio/Flight_To_Tunisia.mp3" id="waiting"  controls="autoplay"></audio> -->
+    <script src="js/script.js"></script>
+</body>
+</html>
